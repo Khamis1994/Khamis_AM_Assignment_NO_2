@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Khamis HTML & CSS Assignment</title>
+	<style type="text/css">
+		body{
+			background-image: url(BG.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.Head{
+			background-color: #84d0f0;
+			height: 70px;
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		.Head li{
+			display: inline-block;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		.Head a{
+			text-decoration: none;
+			color: #021B59;
+			padding: 20px;
+			margin: 20px;
+		}
+		#Logo{
+			position: absolute;
+			top: 8px;
+			right: 8px;
+		}
+		.Text1{
+			color: #021B59;
+			font-weight: bold;
+		}
+		.Text2{
+			color: #021B59;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		.Text2 button{
+			border-radius: 8px;
+			font-weight: bold;
+			font-size: 20px;
+			width: 100px;
+			height: 40px;
+			background-color: #2f95d7;
+		}
+		
+		.SerTable,th,td,tr{
+			border: 3px blue solid;
+			border-collapse: collapse;
+			width: 50%;
+			text-align: center;
+			font-weight: bold;
+			padding: 10px;
+			font-size: 20px;
+			color: #021B59;
+
+		}
+		#ProTable,th,td,tr{
+			border: none;
+			text-align: center;
+			align-content: center;
+		}
+		span{
+			display: inline-block;
+		}
+		.fo{
+			background-color: #2f95d7;
+			height: 200px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			overflow: hidden;
+		}
+		.fo li{
+			display: inline-block;
+			list-style-type: none;
+			margin: 50px;
+		}
+		.fra{
+			position: relative;
+			bottom: 50px;
+			left: 650px;
+		}
+	</style>
+</head>
+<body>
+<header id="Header" >
+	<ul class="Head">
+		<li><a href="#Home">Home</a></li>
+		<li><a href="#Products">Product</a></li>
+		<li><a href="#Services">Services</a></li>
+		<li><a href="#Contact">Contact</a></li>
+	</ul> 
+	<img src="LOGO.png" width="70px" height="70px" id="Logo">
+</header>
+
+<p align="center" class="Text1" >BMS PLUS<br>
+ERP & Industrial Automation Solutions, SCADA Systems<br>
+Building Management Systems  Power Managements </p>
+<p align="center" class="Text1"></p>
+<p align="center" class="Text1"></p>
+
+<div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/gMFjV3kG5H4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+
+<h1 id="Products" align="center" class="Text1">Products</h1>
+
+<table id="ProTable" align="center">
+	<tr>
+		<td><a href="#"><img src="P_ST70_XX_07829I.jpg" width="400px" height="400px"></a></td>
+		<td><a href="#"><img src="P_ST70_XX_06550I.jpg" width="400px" height="400px"></a></td>
+		<td><a href="#"><img src="S7 1500 CPU 1511-1.jpg" width="400px" height="400px"></a></td>
+	</tr>
+	<tr class="Text2" align="center">
+		<td>S7 1517H</td>
+		<td>S7 1515R</td>
+		<td>S7 1511</td>
+	</tr>
+	<tr class="Text2" align="center">
+		<td><button >Buy</button> &nbsp &nbsp 5500$</td>
+		<td><button >Buy</button> &nbsp &nbsp 2500$</td>
+		<td><button >Buy</button> &nbsp &nbsp 1000$</td>
+	</tr>
+
+	<tr>
+		<td><a href="#"><img src="P_KT01_XX_01289i.jpg" width="400px" height="400px"></a></td>
+		<td><a href="#"><img src="P_IK10_XX_02253i.jpg" width="400px" height="400px"></a></td>
+		<td><a href="#"><img src="P_ST70_XX_07569i.jpg" width="400px" height="400px"></a></td>
+	</tr>
+	<tr class="Text2" align="center">
+		<td>S7 PS 60W</td>
+		<td>S7 PM 60W</td>
+		<td>S7 1500 32DI</td>
+	</tr>
+	<tr class="Text2" align="center">
+		<td><button >Buy</button> &nbsp &nbsp 150$</td>
+		<td><button >Buy</button> &nbsp &nbsp 120$</td>
+		<td><button >Buy</button> &nbsp &nbsp 350$</td>
+	</tr>
+
+	<tr>
+		<td><a href="#"><img src="DIN RAIL.jpg" width="400px" height="400px"></a></td>
+		<td><a href="#"><img src="Front connector Screw-type.jpg" width="400px" height="400px"></a></td>
+		<td><a href="#"><img src="P_ST70_XX_06330i.jpg" width="400px" height="400px"></a></td>
+	</tr>
+	<tr class="Text2" align="center">
+		<td>S7 48cm Din Rail</td>
+		<td>S7 Front Connector</td>
+		<td>S7 Memory 4MB</td>
+	</tr>
+	<tr class="Text2" align="center">
+		<td><button >Buy</button> &nbsp &nbsp 40$</td>
+		<td><button >Buy</button> &nbsp &nbsp 50$</td>
+		<td><button >Buy</button> &nbsp &nbsp 45$</td>
+	</tr>	 
+</table>
+
+<h1 class="Text1" align="center" id="Services">Services</h1>
+<table class="SerTable" align="center">
+	<tr>
+		<td>Service</td>
+		<td>Phone</td>
+	</tr>
+	<tr>
+		<td>Sales</td>
+		<td>0797896541</td>
+	</tr>
+	<tr>
+		<td>Support</td>
+		<td>0797896542</td>
+	</tr>
+	<tr>
+		<td>Maintinance</td>
+		<td>0797896543</td>
+	</tr>
+	
+</table>
+
+<h1 class="Text1" align="center" id="Contact">Contact Us</h1>
+
+<footer>
+	<ul class="fo">
+		<li><form align="left" class="fo">
+			<label for="name" >Name:</label><br>
+			<input type="text" name="name" id="name"><br>	
+			<label for="date">Birthday:</label><br>
+			<input type="text" name="date" id="date"><br>	
+			<span align="center">For More Information Call: 0775841354</span>
+		</form></li>
+		<li class="fra"><div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1508.6033301877417!2d35.91362941480463!3d31.91474713327765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1a6038865ed%3A0xb9fee9ddb04e2f31!2zVGhlIENhc3RsZSDYp9mE2YXZgtin2KjZhNmK2YY!5e0!3m2!1sen!2sjo!4v1642192985203!5m2!1sen!2sjo" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" ></iframe></div></li>
+	</ul>
+</footer>
+</body>
+</html>
